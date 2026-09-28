@@ -4,7 +4,7 @@
   "description": "Automação em TypeScript e Playwright para registro e associação de Customer Devices no Nonius Registrar via CSV.",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "cat starter.txt && tsx src/index.ts",
     "build": "tsc"
   },
   "keywords": [
