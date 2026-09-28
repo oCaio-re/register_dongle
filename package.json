@@ -1,0 +1,28 @@
+{
+  "name": "nonius-dongle-registrar-automation",
+  "version": "1.0.0",
+  "description": "Automação em TypeScript e Playwright para registro e associação de Customer Devices no Nonius Registrar via CSV.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "nonius-registrar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.4.5"
+  }
+}
